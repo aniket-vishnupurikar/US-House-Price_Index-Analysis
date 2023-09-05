@@ -1,0 +1,7 @@
+# US House Price Index Analysis
+
+The U.S. House Price Index (HPI) is a metric used to track and measure changes in the prices of residential properties in the United States over time. It provides insight into the trends and movements in the housing market, specifically the prices of homes. We consider different Demand and Supply factors that could affect The HPI. We first identify such factors, then collect the monthly data for these factors from the year 2000 from the open source web, then use Python and its data manipulation libraries to accumulate this data and create a final dataset. Once this dataset is created we clean and preprocess this dataset and perform in-depth analysis to identify which factors affect HPI. We train a regression model based on Machine Learning algorithms to obtain the relative importance of features to assess their power to predict and determine HPI.  
+
+## Files
+
+The Data Folder contains all the demand and supply datasets accumulated from the web. "Data Preparation.ipynb" file contains all the code to create a final dataset that can be used for a supervised learning algorithm. "EDA and ML Models.ipynb" notebook contains code to analyze this data and build a regression model to predict HPI. All the other files are supporting files that are generated during the analysis. "data sources.xlsx" file contains web addresses of all the data sources. "US House Price Index Analysis.docx" file contains a detailed explanation of the project and dataset.
